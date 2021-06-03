@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>innisfree</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>  
+    <script defer src="./js/youtube.js"></script>
+    <script defer src="./js/main.js"></script>
+</head>
+<body>
+    
+    <div class="wrap">
+        
+        <header class="header">
+            <div class="inner">
+            <h1 class="logo"><a href="#"><img src="images/logo.jpg" alt="로고"></a></h1>
+            <ul class="main-menu">
+                <li class="item">
+                    <div class="item__name">THIS WEEK</div>
+                    <div class="item__contents">
+                        <div class="contents__menu">
+                            <ul class="inner">
+                                <li>
+                                    <h4>HOT DEAL &amp; EVENTS</h4>
+                                    <ul>
+                                        <li>HOT DEAL</li>
+                                        <li>EVENTS</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h4>NEW</h4>
+                                    <ul>
+                                        <li>신제품</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h4>BEST</h4>
+                                    <ul>
+                                        <li>베스트 셀러</li>
+                                        <li>스테디 셀러</li>
+                                    </ul>
+                                </li>
+                            </ul><!-- inner -->
+                        </div><!-- contents__menu -->
+                    </div><!-- item__contents -->
+                </li><!-- item -->
+                <li class="item">
+                    <div class="item__name">SKIN CARE</div>
+                    <div class="item__contents">
+                        <div class="contents__menu">
+                            <ul class="inner">
+                                <li>
+                                    <h4>페이스 케어</h4>
+                                    <ul>
+                                        <li>스킨</li>
+                                        <li>에센스 &amp; 세럼</li>
+                                        <li>로션 &amp; 크림</li>
+                                        <li>팩 &amp; 마스크</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h4>페이스 클렌징</h4>
+                                    <ul>
+                                        <li>폼클렌징</li>
+                                        <li>클렌징 오일</li>
+                                        <li>클렌징 워터</li>
+                                        <li>클렌징 밤</li>
+                                        <li>립앤아이 리무버</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h4>바디 케어 &amp; 클렌징</h4>
+                                    <ul>
+                                        <li>바디 워시</li>
+                                        <li>바디 오일</li>
+                                        <li>바디 로션</li>
+                                        <li>바디 미스트</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h4>핸드 케어</h4>
+                                    <ul>
+                                        <li>매니큐어</li>
+                                        <li>네일 관리 세트</li>
+                                        <li>핸드 크림</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h4>헤어 케어</h4>
+                                    <ul>
+                                        <li>샴푸 &amp; 트리트먼트</li>
+                                        <li>헤어밤 &amp; 헤어 오일 &amp; 헤어 에센스</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h4>기타</h4>
+                                    <ul>
+                                        <li>반려동물</li>
+                                        <li>미용 소품</li>
+                                    </ul>
+                                </li>
+                            </ul><!-- inner -->
+                        </div><!-- contents__menu -->
+                    </div><!-- item__contents -->
+                </li><!-- item -->
+                <li class="item">
+                    <div class="item__name">MAKE UP</div>
+                    <div class="item__contents">
+                        <div class="contents__menu">
+                            <ul class="inner">
+                                <li>
+                                    <h4>페이스 메이크업</h4>
+                                    <ul>
+                                        <li>파운데이션 &amp; 쿠션</li>
+                                        <li>파우더</li>
+                                        <li>쉐이팅 &amp; 하이라이터</li>
+                                        <li>블러셔</li>
+                                        <li>그 외</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h4>아이 메이크업</h4>
+                                    <ul>
+                                        <li>아이프라이머</li>
+                                        <li>쉐도우</li>
+                                        <li>아이라이너</li>
+                                        <li>마스카라</li>
+                                        <li>아이브로우</li>
+                                        <li>글리터</li>
+                                        <li>그 외</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h4>립 메이크업</h4>
+                                    <ul>
+                                        <li>립프라이머</li>
+                                        <li>립스틱</li>
+                                        <li>립글로즈</li>
+                                        <li>립틴트</li>
+                                        <li>립밤</li>
+                                        <li>그 외</li>
+                                    </ul>
+                                </li>
+                            </ul><!-- inner -->
+                        </div><!-- contents__menu -->
+                    </div><!-- item__contents -->
+                </li><!-- item -->
+            </ul><!-- main-menu -->
+        
+            <ul class="util">
+              <li class="login"><a href="#">로그인</a></li>
+              <li class="lang"><a href="#"><p></p></a></li>
+            </ul>
+
+         </div><!-- inner -->
+     </header>
+        
+        <section class="youtube">
+            <div class="inner">
+                    <div id="player"></div>
+                <div class="youtube__cover"></div>
+            </div>
+        </section><!-- youtube -->
+        
+        <section class="container01">
+            <div class="inner">
+                <div class="container01Top">
+                <a href="#" class="container01_more">인기제품 더보기 &gt;</a>
+                <div class="swiper-container" >
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="./images/cont1_1" alt="블랙유스 인핸싱 앰플">
+                                <dl>
+                                    <dt>블랙유스 인핸싱 앰플</dt>
+                                    <dd><del>₩35,000</del><br>₩24,500</dd>
+                                </dl>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="./images/cont1_2" alt="그린티 씨드 크림">
+                                <dl>
+                                    <dt>그린티 씨드 크림</dt>
+                                    <dd>₩22,000</dd>
+                                </dl>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="./images/cont1_3" alt="더마 그린티 바이오틱스 크림">
+                                <dl>
+                                    <dt>더마 그린티 바이오틱스 크림</dt>
+                                    <dd>₩25,000</dd>
+                                </dl>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="./images/cont1_4" alt="블랙유스 인핸싱 앰플">
+                                <dl>
+                                    <dt>블랙유스 인핸싱 앰플</dt>
+                                    <dd>₩25,000</dd>
+                                </dl>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="./images/cont1_5" alt="블랙유스 인핸싱 앰플">
+                                <dl>
+                                    <dt>블랙유스 인핸싱 앰플</dt>
+                                    <dd>₩25,000</dd>
+                                </dl>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="./images/cont1_6" alt="블랙유스 인핸싱 앰플">
+                                <dl>
+                                    <dt>블랙유스 인핸싱 앰플</dt>
+                                    <dd>₩25,000</dd>
+                                </dl>
+                            </a>
+                        </div>
+                    </div><!-- swiper-wrapper -->
+                </div><!-- swiper-container -->
+                <div class="swiper-next"><img src="images/cont1_more.jpg" alt="인기제품 더보기"></div>
+                </div><!-- container01Top -->
+                <div class="container01Bottom">
+                    <div class="swiper-pagination"></div>
+                </div><!-- container01Bottom -->
+                
+            </div><!-- inner -->
+        </section><!-- container01 -->
+        
+        <section class="container02">
+            <div class="inner">
+            <div><img src="images/cont2_1.jpg" alt="공병 이미지"></div>
+            <div><img src="images/cont2_2.jpg" alt="공병공간은 한옥과 이니스프리 공병제품을 이용해 만든 공간입니다"></div>
+            </div>
+        </section>
+        
+        <section class="container03">
+            <div class="inner">
+                <input type="text" placeholder="#비자시카 #실시간인기제품 #스킨추천" onfocus="this.placeholder=''" onblur="this.placeholder='#비자시카 #실시간인기제품 #스킨추천'" name="search">
+            </div>
+        </section>
+        
+        <section class="container04">
+            <div class="inner">
+            <div class="cont">
+                <img src="images/cont4_1.jpg" alt="이니스프리 제주하우스는 제주 자연 속에서 오감을 만족시킬 수 있는 브랜드 체험관입니다.">
+                <div class="reserve">
+                    <p>예약하기</p> 
+                    <p>&gt;</p> 
+                </div>
+            </div>
+            <div class="cont"><img src="images/cont4_2.jpg" alt="제주하우스 이미지"></div>
+        </div><!-- inner -->
+        </section>
+        
+        <footer class="footer">
+            <div class="inner">
+                <div class="footer1">
+                        <ul>
+                            <h3>소개</h3>
+                            <li><a href="#">브랜드스토리</a></li>
+                            <li><a href="#">채용</a></li>
+                            <li><a href="#">개인정보처리방침</a></li>
+                        </ul>
+                        <ul>
+                            <h3>문의하기</h3>
+                            <li><a href="#">배송 및 반품</a></li>
+                            <li><a href="#">배송조회</a></li>
+                            <li><a href="#">Q/A</a></li>
+                            <li><a href="#">이용약관</a></li>
+                        </ul>
+                        <ul>
+                            <h3>소셜</h3>
+                            <li><a href="#" class="kakao_off">Kakaotalk</a><a href="#" class="kakao_on">카카오톡 플러스 친구하고 3,000원 혜택받기</a></li>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Weibo</a></li>
+                            <li><a href="#">Youtube</a></li>
+                        </ul>
+                </div><!-- footer1 -->
+                <div class="footer2">
+                    <p>서울특별시 용산구 한강대로 100(한강로2가) 7층 이니스프리 | 대표이사 : 임혜영 | 사업자 등록번호 : 106-86-68127 | 대표번호 : 080-380-0114 | 이메일 : innisfree@innisfree.com</p>
+                    <p>개인정보 보호 책임자 : 박남기 | 통신판매신고번호 2018-서울용산-0014 | <a href="#">사업자 정보 확인 </a></p>
+                    <p>Copyright © 2021 김다경. All Rights Reserved.</p>
+                </div>
+            </div><!-- inner -->
+        </footer>
+        
+    </div>
+    
+</body>
+</html>

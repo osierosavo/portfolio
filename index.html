@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DakyeongKIM</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" /> <!-- reset css -->
+  <link rel="icon" href="./favicon.png" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <script defer src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="./css/style.css" />
+  <script defer src="./js/main.js"></script>
+</head>
+<body>
+
+  <div class="wrap">
+
+    <div class="innerwrap">
+
+      <header id="header">
+        <nav class="headerin">
+
+            <ul class="gnb">
+              <li data-tab-target="#questions">김다경</li>
+              <li data-tab-target="#skills">WHAT I CAN DO</li>
+              <li data-tab-target="#home" class="active">WHAT I'VE DONE</li>
+            </ul><!-- gnb -->
+
+            <div class="bar"></div>
+
+            <ul class="contact">
+              <li>
+                <a href="#"><div class="material-icons">mail</div></a>
+                <div class="depth">
+                  <ul>
+                    <li class="copy1"><a href="#">osierosavo@gmail.com</a></li>
+                    <li>클릭 시, 이메일 주소가 복사됩니다.</li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a href="#"><div class="material-icons">phone</div></a>
+                <div class="depth">
+                  <ul>
+                    <li class="copy2"><a href="#">010-3955-1248</a></li>
+                    <li>클릭 시, 전화번호가 복사됩니다.</li>
+                  </ul>
+                </div>
+              </li>
+              <div class="copied">copied!</div>
+            </ul><!-- contact -->
+          
+        </nav><!-- headerin -->
+      </header>
+
+      <section class="container">
+
+        <div id="questions" data-tab-content>
+          <div class="questionGroup">
+            <div class="question">
+              <h2>어떻게 공부를 해 왔나요?</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, aliquid quam id tempore, distinctio quas veritatis numquam nulla eaque, odio temporibus magnam nostrum sapiente quos perferendis rerum? Impedit, quidem illo?</p>
+            </div><!-- question1 -->
+            <div class="question">
+              <h2>어려운 점을 어떻게 극복했나요?</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero deleniti vitae sint omnis eos qui nisi sed illum incidunt at cumque, aut ratione culpa eius consequuntur saepe accusamus ut illo!</p>
+            </div><!-- question2 -->
+            <div class="question">
+              <h2>앞으로의 계획은 무엇인가요?</h2>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error corporis aliquam minus similique. Itaque quod iusto praesentium inventore, sint at deleniti sunt nisi molestias. Voluptas quod accusantium praesentium fugit atque.</p>
+            </div><!-- question3 -->
+          </div><!-- questionGroup -->
+        </div><!-- questions -->
+
+        <div id="skills" data-tab-content>
+          <div class="skillsGroup">
+            <div class="skill">
+              <h2 class="skillTitle">HTML</h2>
+              <div class="skillContents">
+                <div class="skillContent"><div class="material-icons">done</div><p><span>웹 표준</span>에 준수한 마크업을 할 수 있습니다.</p></div>
+                <div class="skillContent"><div class="material-icons">done</div><p>태그 고유의 속성을 이해하고 있으며, 적재적소에 사용할 수 있습니다.</p></div>
+                <div class="skillContent"><div class="material-icons">done</div><p><span>웹 접근성</span>을 고려한 페이지를 제작할 수 있습니다.</p></div>
+              </div><!-- skillContents -->
+            </div><!-- skill -->
+            <div class="skill">
+              <h2 class="skillTitle">CSS</h2>
+              <div class="skillContents">
+                <div class="skillContent"><div class="material-icons">done</div><p>Media query를 사용한 <span>반응형 웹</span>을 제작할 수 있습니다.</p></div>
+                <div class="skillContent"><div class="material-icons">done</div><p>Flex box를 활용해 유연한 UI를 만들 수 있습니다.</p></div>
+              </div><!-- skillContents -->
+            </div><!-- skill -->
+            <div class="skill">
+              <h2 class="skillTitle">Javascript</h2>
+              <div class="skillContents">
+                <div class="skillContent"><div class="material-icons">done</div><p>데이터의 종류, 변수, 예약어, 조건문의 개념을 이해하고 있습니다.</p></div>
+                <div class="skillContent"><div class="material-icons">done</div><p><span>DOM API</span>와 함수를 이해할 수 있으며, 이를 활용한 동적인 웹을 만들 수 있습니다.</p></div>
+              </div><!-- skillContents -->
+            </div><!-- skill -->
+            <div class="skill">
+              <h2 class="skillTitle">Jquery</h2>
+              <div class="skillContents">
+                <div class="skillContent"><div class="material-icons">done</div><p>Jquery 라이브러리를 활용하여 동적인 웹사이트를 만들 수 있습니다.</p></div>
+              </div><!-- skillContents -->
+            </div><!-- skill -->
+            <div class="skill">
+              <h2 class="skillTitle">ETC.</h2>
+              <div class="skillContents">
+                <div class="skillContent"><div class="material-icons">done</div><p><span>웹 앱의 동작원리</span>와 <span>크로스브라우징</span>의 개념을 이해하고 있습니다.</p></div>
+                <div class="skillContent"><div class="material-icons">done</div><p>웹 디자인에 필요한 Photoshop, Illustrator, XD 툴을 활용할 수 있습니다.</p></div>
+              </div><!-- skillContents -->
+            </div><!-- skill -->
+          </div><!-- skillsGroup -->
+        </div><!-- whatICanDo -->
+
+        <div id="home" data-tab-content class="active">
+          <div class="works">
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><a href="./innisfree/index.html" target='_blank'>
+                  <h2>Innisfree</h2>
+                  <p>#반응형웹 #그리드 #깔끔한</p>
+                  <img src="./images/sliderImg1.png" alt="제주 곶자왈">
+                </a></div>
+                <div class="swiper-slide"><a href="./rayban/index.html" target='_blank'>
+                  <h2>Rayban</h2>
+                  <p>#반응형웹 #애니메이션 #아이디어</p>
+                  <img src="./images/sliderImg2.png" alt="톰크루즈가 레이벤 선글라스를 낀 모습">
+                </a></div>
+                <div class="swiper-slide"><a href="./twosomeplace/index.html" target='_blank'>
+                  <h2>Twosomeplace</h2>
+                  <p>#반응형웹 #그리드 #상업적인</p>
+                  <img src="./images/sliderImg3.png" alt="딸기">
+                </a></div>
+                <div class="swiper-slide"><a href="./GH_palace/index.html" target='_blank'>
+                  <h2>Gyeonghuigung</h2>
+                  <p>#3D애니메이션 #일러스트레이션 #전통적인</p>
+                  <img src="./images/sliderImg4.png" alt="일월오봉도와 경희궁 일러스트">
+                </a></div>
+                <div class="swiper-slide"><a href="./buffay/index.html" target='_blank'>
+                  <h2>Buffay</h2>
+                  <p>#앱기획 #의사소통 #디자인</p>
+                  <img src="./images/sliderImg5.png" alt="부페이 앱 디자인">
+                </a></div>
+              </div><!-- swiper-wrapper -->
+            </div><!-- swiper-container -->
+            <div class="swiper-prev"></div>
+            <div class="swiper-next"></div>
+            <div class="swiper-pagination"></div>            
+         </div><!-- works -->
+        </div><!-- home -->
+
+      </section><!-- container -->
+  
+
+      <footer class="footer">
+        <div class="footergroup">
+          <p>Copyright© All Rights Reserved.</p>
+          <p>본 사이트는 개인 포트폴리오 사이트로 제작되었으며 사용된 일부 이미지 및 폰트는 별도의 출처가 있음을 밝힙니다.</p>
+          <p>osierosavo@gmail.com</p>
+        </div><!-- footergroup -->
+      </footer>
+
+    </div><!-- innerwrap -->
+  </div><!-- wrap -->
+
+</body>
+</html>

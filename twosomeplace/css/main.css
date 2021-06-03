@@ -1,0 +1,234 @@
+#wrap{width: 100%; min-width: 1364px;}
+
+.header{
+    width: 100%; height: 100px;
+    background-color: #000;
+    position: relative;
+}
+
+.header .logo{
+    position: absolute;
+    top: 25px; left: 20px;
+}
+
+.header .gnb{
+    position: absolute;
+    top: 45px; left: 355px;
+    color: #fff;
+}
+
+.header .gnb li{
+    float: left;
+    margin-right: 30px;
+    font-size: 0;
+}
+
+.header .gnb li:nth-child(1){
+    width: 51px; height: 11px;
+    background: url(../img/gnb1.jpg) no-repeat 0 0;
+}
+.header .gnb li:nth-child(2){
+    width: 57px; height: 11px;
+    background: url(../img/gnb2.jpg) no-repeat 0 0;
+}
+.header .gnb li:nth-child(3){
+    width: 56px; height: 11px;
+    background: url(../img/gnb3.jpg) no-repeat 0 0;
+}
+.header .gnb li:nth-child(4){
+    width: 69px; height: 11px;
+    background: url(../img/gnb4.jpg) no-repeat 0 0;
+}
+
+.header .gnb li:hover{background-position: 0 -11px;}
+
+.header .menu{display: none;}
+
+/*****************************************/
+
+#slider{
+    position: relative;
+    width: 100%; height: 617px;
+    background: url(../img/slider.jpg);
+}
+
+#slider .berry{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all .5s;
+}
+
+/****************************************/
+
+#container1{
+    width: 100%; height: 500px;
+    position: relative;    
+    border-bottom: 1px dotted #000;
+}
+
+#container1 h2{
+    position: absolute;
+    top: 80px; left: 50%;
+    transform: translateX(-50%);
+}
+
+#container1 .cont1in{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 50px;
+}
+
+#container1 .cont1in li{
+    float: left;
+    width: 178px; height: 266px;
+    font-size: 0;
+    margin-right: 74px;
+    transition: all .5s;
+}
+
+#container1 .cont1in li:nth-child(1){
+    background: url(../img/cont1_1.jpg) no-repeat 0 0 / 178px 266px;
+    transition-delay: .1s;
+}
+#container1 .cont1in li:nth-child(2){
+    background: url(../img/cont1_2.jpg) no-repeat 0 0 / 178px 266px;
+    transition-delay: .2s;
+}
+#container1 .cont1in li:nth-child(3){
+    background: url(../img/cont1_3.jpg) no-repeat 0 0 / 178px 266px;
+    margin-right: 0;
+    transition-delay: .3s;
+}
+
+
+
+#container1 .pager{
+    opacity: 0;
+    transition: all .5s;
+}
+
+#container1:hover .pager{
+    opacity: 1;
+}
+
+#container1 .prev{
+    position: absolute;
+    top: 268px; left: 44px;
+    transition: all .5s;
+}
+
+#container1 .next{
+    position: absolute;
+    top: 268px; right: 44px;
+    transition: all .5s;
+}
+
+/****************************************/
+#container2{
+    width:1024px; height: 700px;
+    background: url(../img/container2.jpg) no-repeat center center / 100% auto;
+    position: relative;
+    margin: 0 auto;
+}
+
+#container2 .search{
+    position: absolute;
+    top: 330px; left: 105px;
+}
+
+#container2 .search input{
+    width: 300px; height: 35px;
+    outline: none;
+    padding: 10px;
+    border: 0;
+    background-color: #f1f0f0;
+}
+
+#container2 .search button{
+    width: 55px; height: 55px;
+    border: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+input:-ms-input-placeholder {color: #333;}
+input::-webkit-input-placeholder {color: #333;}
+input::-moz-placeholder {color: #333;}
+
+
+#container2 .map1{left: 710px; top: 130px;}
+#container2 .map2{left: 625px; bottom: 140px;}
+#container2 .map3{top: 295px; left: 623px;}
+#container2 .map4{top: 153px; left: 637px;}
+#container2 .map5{top: 240px; left: 712px;}
+#container2 .map6{display:none;}
+#container2 .map7{bottom: 185px; left: 608px;}
+#container2 .map8{bottom: 290px; left: 654px;}
+#container2 .map9{bottom: 231px; left: 735px;}
+#container2 .map10{bottom: 313px; left: 756px;}
+
+#container2>a{
+    position: absolute;
+    transition: all .5s;
+    opacity: 0;
+}
+#container2>a:hover{opacity: 1;}
+
+/****************************************/
+
+.footer{
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+
+.footer .footerin{
+    width: 756px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.footer .footer1{
+    width:372px;
+    margin:0 auto 23px auto;
+    padding-top:23px;
+    padding-bottom: 15px;
+}
+
+.footer .footer1 p{
+    float: left;
+}
+
+.footer .footer1 p:nth-child(1){
+    margin-right: 102px;
+}
+.footer .footer1 p:nth-child(2){
+    margin-right: 89px;
+}
+.footer .footer1 p:nth-child(3){
+    margin-right:0;
+}
+
+.footer .footer2{
+    text-align:center;
+    border-top: 1px solid #fff;
+    padding:23px 0;
+    letter-spacing:-0.3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
