@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" /> <!-- material icons -->
   <link rel="stylesheet" href="./css/common.css">
   <link rel="stylesheet" href="./css/main.css">
+  <script src="https://kit.fontawesome.com/44df6f2bca.js" crossorigin="anonymous"></script>
   <script defer src="./js/common.js"></script>
   <script defer src="./js/main.js"></script>
 </head>
@@ -18,78 +19,151 @@
     
     <header>
       <div class="inner">
-        <div class="search">
-          <div class="material-icons">search</div>
-        </div><!-- search -->
-        <a href="javascript:void(0)" class="logo"><img src="./images/logo.jpg" alt="레이벤 로고"></a>
-        <div class="mobileMenu">
-          <div class="material-icons">menu</div>
-      </div><!-- mobileMenu -->
+        
+        <div class="search"><div class="material-icons">search</div></div><!-- search -->
+        <img src="./images/logo_M.png" alt="레이벤 로고" class="logo_M">
+        <div class="mobileMenu"><div class="material-icons">menu</div></div><!-- mobileMenu -->
+
+        <a href="/" class="logo"><img src="./images/logo.jpg" alt="레이벤 로고"></a>
+        <div class="headerPart">
+          <ul class="headerPart1">
+                <li><a href="#">NEWS</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li class="visit"><a href="#">VISIT</a></li>
+                <li class="search"><a href="#"><img src="img/search.jpg"></a></li>
+          </ul><!-- headerPart1 -->
+          <ul class="headerPart2">
+              <li><a href="#">SUNGLASSES</a></li>
+              <li><a href="#">EYEGLASSES</a></li>
+          </ul><!-- headerPart2 -->
+      </div><!-- headerPart -->
+
       </div><!-- inner -->
     </header>
 
+    <section class="mobile"></section><!-- mobile -->
+
+    
+
     <section class="visual">
-      <img src="./images/slider_img.jpg" alt="톰 크루즈가 레이벤 선글라스를 끼고 있는 모습">
+      <div class="inner">
+      </div>
     </section><!-- visual -->
 
     <main>
       
       <section class="container1">
         <div class="inner">
-          <div class="btn sunglasses-btn"></div>
-          <div class="sunglasses glassesBackground">
-              <div class="sunglass1">
-                  <p class="title sunglass1-title">RB3561 001 57-17</p>
-                  <a href="javascript:void(0)" class="img sunglass1-img"><img src="./images/sunglass1.png" alt="레이벤 제너럴 선글라스"></a>
-                  <p class="info sunglass1-info">Ray-Ban the General is the ultimate celebration of the iconoclastic spirit of Ray-Ban. The bold and unmistakable design was originally created back in 1987 as a tribute to the pioneering spirit of General Douglas Macarthur. Today’s design is slightly reinterpreted, staying true to the Aviator spirit yet with more squared lenses and a bold upper bar. Ray-Ban the General exhibits a durable & tough look and is perfectly fitted.</p>
-              </div><!--sunglass1-->
-              <div class="sunglass2">
-                  <p class="title sunglass2-title">RB6457 2500 51-22</p>
-                  <a href="javascript:void(0)" class="img sunglass2-img"><img src="./images/sunglass2.png" alt="레이벤 RB6457 선글라스"></a>
-              </div><!--sunglass2-->
-              <div class="sunglass3">
-                  <p class="title sunglass3-title">RB3025 L0205 58-14</p>
-                  <a href="javascript:void(0)" class="img sunglass3-img"><img src="./images/sunglass3.png" alt="레이벤 에비에이터 선글라스"></a>
-                  <p class="info sunglass3-info">Currently one of the most iconic sunglass models in the world, Ray-Ban Aviator Classic sunglasses were originally designed for U.S. aviators in 1937. Aviator Classic sunglasses are a timeless model that combines great aviator styling with exceptional quality, performance and comfort.
-                      With a classic gold frame, you can see the world through a variety of lens colors including crystal brown, crystal green, G-15 polarized and more that provide optimum visual clarity and 100% UV protection.</p>
-              </div><!--sunglass3-->
-              <a href="javascript:void(0)" class="more">MORE &gt;</a>
-          </div><!--sunglasses-->
-          
-          <div class="btn eyeglasses-btn"></div>
-          <div class="eyeglasses glassesBackground">
-              <div class="eyeglass1">
-                  <p class="title eyeglass1-title"><a href="#">RB6457 2500 51-22</a></p>
-                  <a href="javascript:void(0)" class="img eyeglass1-img"><img src="./images/eyeglass1.png"></a>
-                  <p class="info eyeglass1-info">The State Street Optics is an elegant, squared shape with a bold acetate frame. Available in classic and new Havana colours, this iconic style takes inspiration from the progressive spirit of the '70s. With State Street Optics, classic elegance meets modern design.</p>
-              </div><!--eyeglass1-->
-              <div class="eyeglass2">
-                  <p class="title eyeglass2-title"><a href="#">RB6457 2500 51-22</a></p>
-                  <a href="javascript:void(0)" class="img eyeglass2-img"><img src="./images/eyeglass3.png"></a>
-              </div><!--eyeglass2-->
-              <div class="eyeglass3">
-                  <p class="title eyeglass3-title"><a href="#">RB6457 2500 51-22</a></p>
-                  <a href="javascript:void(0)" class="img eyeglass3-img"><img src="./images/eyeglass1.png" alt=""></a>
-                  <p class="info eyeglass3-info">Don't be fooled by their relatively minimalist appearance: these frames elevate the seemingly straightforward into something spectacular. With the Square metal shape, and metallic and satin colours, these frames can slip seamlessly into anyone's style, creating a striking first impression. Plus comfort and easiness to use, thanks to the adjustable nosepads and temple tips, while the lens shape will fit any kind of lenses.</p>
-              </div><!--eyeglass3-->
-              <a href="javascript:void(0)" class="more">MORE &gt;</a>
-          </div><!--eyeglasses-->
+          <div class="container1_content">
+            <div class="btn sunglasses-btn"></div>
+            <div class="sunglasses glassesBackground">
+                <div class="sunglass1">
+                    <p class="title sunglass1-title">RB3561 001 57-17</p>
+                    <a href="javascript:void(0)" class="img sunglass1-img"><img src="./images/sunglass1.png" alt="레이벤 제너럴 선글라스"></a>
+                    <p class="info sunglass1-info">Ray-Ban the General is the ultimate celebration of the iconoclastic spirit of Ray-Ban. The bold and unmistakable design was originally created back in 1987 as a tribute to the pioneering spirit of General Douglas Macarthur. Today’s design is slightly reinterpreted, staying true to the Aviator spirit yet with more squared lenses and a bold upper bar. Ray-Ban the General exhibits a durable & tough look and is perfectly fitted.</p>
+                </div><!--sunglass1-->
+                <div class="sunglass2">
+                    <p class="title sunglass2-title">RB6457 2500 51-22</p>
+                    <a href="javascript:void(0)" class="img sunglass2-img"><img src="./images/sunglass2.png" alt="레이벤 RB6457 선글라스"></a>
+                </div><!--sunglass2-->
+                <div class="sunglass3">
+                    <p class="title sunglass3-title">RB3025 L0205 58-14</p>
+                    <a href="javascript:void(0)" class="img sunglass3-img"><img src="./images/sunglass3.png" alt="레이벤 에비에이터 선글라스"></a>
+                    <p class="info sunglass3-info">Currently one of the most iconic sunglass models in the world, Ray-Ban Aviator Classic sunglasses were originally designed for U.S. aviators in 1937. Aviator Classic sunglasses are a timeless model that combines great aviator styling with exceptional quality, performance and comfort.
+                        With a classic gold frame, you can see the world through a variety of lens colors including crystal brown, crystal green, G-15 polarized and more that provide optimum visual clarity and 100% UV protection.</p>
+                </div><!--sunglass3-->
+                <a href="javascript:void(0)" class="more">MORE &gt;</a>
+            </div><!--sunglasses-->
 
+            <div class="btn eyeglasses-btn"></div>
+            <div class="eyeglasses glassesBackground">
+                <div class="eyeglass1">
+                    <p class="title eyeglass1-title"><a href="#">RB6457 2500 51-22</a></p>
+                    <a href="javascript:void(0)" class="img eyeglass1-img"><img src="./images/eyeglass1.png"></a>
+                    <p class="info eyeglass1-info">The State Street Optics is an elegant, squared shape with a bold acetate frame. Available in classic and new Havana colours, this iconic style takes inspiration from the progressive spirit of the '70s. With State Street Optics, classic elegance meets modern design.</p>
+                </div><!--eyeglass1-->
+                <div class="eyeglass2">
+                    <p class="title eyeglass2-title"><a href="#">RB6457 2500 51-22</a></p>
+                    <a href="javascript:void(0)" class="img eyeglass2-img"><img src="./images/eyeglass3.png"></a>
+                </div><!--eyeglass2-->
+                <div class="eyeglass3">
+                    <p class="title eyeglass3-title"><a href="#">RB6457 2500 51-22</a></p>
+                    <a href="javascript:void(0)" class="img eyeglass3-img"><img src="./images/eyeglass1.png" alt=""></a>
+                    <p class="info eyeglass3-info">Don't be fooled by their relatively minimalist appearance: these frames elevate the seemingly straightforward into something spectacular. With the Square metal shape, and metallic and satin colours, these frames can slip seamlessly into anyone's style, creating a striking first impression. Plus comfort and easiness to use, thanks to the adjustable nosepads and temple tips, while the lens shape will fit any kind of lenses.</p>
+                </div><!--eyeglass3-->
+                <a href="javascript:void(0)" class="more">MORE &gt;</a>
+            </div><!--eyeglasses-->
+          </div><!-- container1_content -->
         </div><!-- inner -->
       </section><!-- container1 -->
 
       <section class="container2">
-        <div class="inner"></div><!-- inner -->
+        <div class="inner">
+          <div class="container2Img"></div>
+          <div class="cont2In">
+              <div class="paintingBlur"></div>
+              <div class="glasses"><img src="img/hover_glasses.png"></div>
+          </div>
+        </div><!-- inner -->
       </section><!-- container2 -->
 
       <section class="container3">
-        <div class="inner"></div><!-- inner -->
+        <div class="inner">
+          <p class="cont3Title"><a href="#">나만의 아이웨어 만들기 &gt; </a></p>
+          <div class="container3In"></div><!--mobile,tablet img-->
+          <div class="container3rolling"><!--PC animaition-->
+              <div class="customGlass"></div><!-- customGlass -->
+              <div class="focus">
+                  <div class="focusIn1"><img src="img/focus1.png"></div>
+                  <div class="focusIn2"><img src="img/focus2.png"></div>
+                  <div class="focusIn3"><img src="img/focus3.png"></div>
+                  <div class="focusIn4"><img src="img/focus4.png"></div>
+              </div><!-- focus -->
+          </div><!--container3rolling-->
+        </div><!-- inner -->
       </section><!-- container3 -->
 
     </main>
 
     <footer>
-      <div class="inner"></div><!-- inner -->
+          <div class="footer1">
+            <div class="inner">
+              <div class="footer1_block">
+                  <div class="material-icons">lock</div>
+                  <p class="txt">레이벤은 모든 거래에서 100% 안전 결제를 보장합니다.</p>
+              </div><!-- safe -->
+              <div class="footer1_block">
+                <div class="material-icons">local_shipping</div>
+                  <p class="txt">레이벤은 모든 배송을 100% 무료로 제공합니다.</p>
+              </div><!-- free -->
+            </div><!-- inner -->
+          </div><!-- footer1 -->
+          <div class="footer2">
+            <div class="inner">
+              <p><a>도움이 필요하세요?</a></p>
+              <ul class="sns">
+                  <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                  <li><a href="#"><i class="fab fa-snapchat-ghost"></i></a></li>
+                  <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="#"><i class="fas fa-comment-dots"></i></a></li>
+              </ul><!-- sns -->
+            </div><!-- inner -->
+          </div><!-- footer2 -->
+          <div class="footer3">
+            <div class="inner">
+             <ul class="info">
+                  <li><a href="#">약관</a></li>
+                  <li><a href="#">개인 정보 보호 정책</a></li>
+                  <li><a href="#">사이트 맵</a></li>
+              </ul>
+            </div><!-- inner -->
+          </div><!-- footer3 -->
+          <div class="footer4">
+              <p>Copyright ©2021 DakyeongKIM - All RightsReserved.</p>
+          </div><!-- footer4 -->
     </footer>
 
   </div><!-- wrap -->

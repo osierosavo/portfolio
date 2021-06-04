@@ -1,132 +1,104 @@
 /********************************************************** mobile ver */
-
-/* visual */
-.visual {
-  width: 100vw;
-}
-.visual > img {
-  width: 100%;
-}
-
-/* container1 */
-.container1 {
-  width: 100vw; height: 1300px;
-}
-.container1 .inner {
-  width: 100%; height: 100%;
-}
-.container1 .inner .btn {
-  cursor: pointer;
-  width: 20%; height: 2.5%;
-  background-color: red;
-  opacity: .5;
-  position: absolute;
-  top: 2.3%;
-  z-index: 1;
-}
-.container1 .inner .glassesBackground {
-  width:100%; height: 100%;
+.visual {display: none;}
+.mobile {
+  width: 100vw; height: 100vh;
+  background-image: url("../images/mobile_img.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center 0;
-  position: relative;
-  top: 30px; left: 50%; transform: translateX(-50%);
-  background-color: pink;
+  background-position: 0, 0;
+  transition: .3s;
 }
-.container1 .inner .glassesBackground .title {
-  font-size: 1vw;
-  position: absolute;
-  left: 17%;
-}
-.container1 .inner .glassesBackground .img {
-  position: absolute;
-  left: 12%;
-}
-.container1 .inner .glassesBackground .img img {
-  height: 33vh;
-}
-
-.container1 .inner .glassesBackground .info {display: none;} 
-
-.container1 .inner .more {
-  display: block;
-  font-size: 0;
-}
-
-/* container1 > sunglasses */
-.container1 .inner .sunglasses-btn {
-  right: 23.5%;
-}
-
-.container1 .inner .sunglasses {background-image: url('../images/mobile_sunglasses.jpg');}
-
-.sunglass1 .sunglass1-title {top: 16%;}
-.sunglass2 .sunglass2-title {top: 535px;}
-.sunglass3 .sunglass3-title {top: 845px;}
-
-.sunglass1 .sunglass1-img {top: 16%;}
-.sunglass2 .sunglass2-img {top: 35%;}
-.sunglass3 .sunglass3-img {top: 880px;}
-
-/* container1 > eyeglasses */
-.eyeglasses-btn {
-  right: 3.3%;
-}
-
-.eyeglasses {
-  display: none;
-  /* background-image: url('../images/mobile_eyeglasses.jpg'); */
-}
-
-.eyeglass1 .eyeglass1-title {display: none;}
-.eyeglass2 .eyeglass2-title {display: none;}
-.eyeglass3 .eyeglass3-title {display: none;}
-
-.eyeglass1 .eyeglass1-img {display: none;}
-.eyeglass2 .eyeglass2-img {display: none;}
-.eyeglass3 .eyeglass3-img {display: none;}
-
-
+.container1 {display: none;}
+.container2 {display: none;}
+.container3 {display: none;}
 /********************************************************** mobile - pad ver */
 @media (min-width:641px) {
 
-  /* container1 */
+  /* mobile */
+  .mobile {
+    display: none;
+  }
+  /* visual */
+  .visual {
+    width: 100vw; height: 398px;
+    display: block;
+  }
+  .visual .inner {
+    width: 100%; height: auto;
+    background-image: url("../images/slider_img.jpg");
+    background-repeat: no-repeat;
+  }
 
-  .container1 .inner .btn {
+  /* container1 */
+  .container1 {
+    display: block;
+    width: 100vw; height: 1300px;
+  }
+  .container1 .inner {
+    width: 100%; height: 100%;
+  }
+  .container1 .btn {
+    cursor: pointer;
     display: block;
     width: 130px; height: 35px;
     position: absolute;
     background-color: transparent;
-    top: 30px;
+    top: 0;
     z-index: 1;
   }
-  .container1 .inner .glassesBackground {width: 640px;}
-
-  .container1 .inner .glassesBackground .title {left: 120px;}
-
-  .container1 .inner .glassesBackground .img {left: 105px;}
-
-  .container1 .inner .more{
-   width: 95px; height: 40px;
-   font-size: 0;
-   position: absolute;
-   bottom: 50px; right: 45px;
-   background-color: transparent;
+  .container1 .container1_content {
+    display: block; 
+    width: 640px; height: 100%;
+    position: relative;
+    top: 30px; left: 50%; transform: translateX(-50%);
   }
 
-  /* container1 > sunglasses */
-  .container1 .inner .sunglasses-btn {right: 225px;}
+  .container1 .glassesBackground {
+    width: 640px; height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center 0;
+    position: absolute;
+  }
+  .container1 .glassesBackground .title {
+    font-size: 1vw;
+    position: absolute;
+    left: 120px;
+  }
+  .container1 .glassesBackground .img {
+    position: absolute;
+    left: 85px;
+  }
+  .container1 .glassesBackground .img img {
+    height: 33vh;
+  }
+  .container1 .glassesBackground .info {display: none;} 
+
+  .container1 .more{
+    display: block;
+    width: 95px; height: 40px;
+    font-size: 0;
+    position: absolute;
+    bottom: 50px; right: 45px;
+    background-color: transparent;
+  } 
+
+  /* container1 > sunglasses */ 
+  .container1 .sunglasses {background-image: url('../images/mobile_sunglasses.jpg');}
+
+  .container1 .sunglasses-btn {right: 150px;}
 
   .sunglass1 .sunglass1-title {top: 232px;}
   .sunglass2 .sunglass2-title {top: 535px;}
   .sunglass3 .sunglass3-title {top: 845px;}
 
-  .sunglass1 .sunglass1-img {top: 250px;}
-  .sunglass2 .sunglass2-img {top: 555px;}
-  .sunglass3 .sunglass3-img {top: 880px;}
+  .sunglass1 .sunglass1-img {top: 235px;}
+  .sunglass2 .sunglass2-img {top: 540px;}
+  .sunglass3 .sunglass3-img {top: 860px;}
 
-  /* container1 > eyeglasses */
-  .eyeglasses-btn {right: 94px;}
+  /* container1 > eyeglasses */  
+  .container1 .inner .eyeglasses {background-image: url('../images/mobile_eyeglasses.jpg');}
+
+  .eyeglasses-btn {right: 17px;}
   
   .eyeglass1 .eyeglass1-title {top: 232px;}
   .eyeglass2 .eyeglass2-title {top: 535px;}
@@ -135,5 +107,46 @@
   .eyeglass1 .eyeglass1-img {top: 250px;}
   .eyeglass2 .eyeglass2-img {top: 555px;}
   .eyeglass3 .eyeglass3-img {top: 880px;}
+ 
+  /* container2 */
+  .container2{
+    display: block;
+    width: 100%; height: 460px;
+    position: relative;
+    background-color: #eee;
+    margin-top: 30px;
+  }
+  .container2 .container2Img{
+    width: 768px; height: 460px;
+    background:url("../images/container2Img.jpg") no-repeat;
+    position: absolute;
+    top: 0; left: 50%; transform: translateX(-50%);
+  }
+
+  .container2 .cont2In{display: none;}
+
+  /* container3 */
+
+  .container3{
+    display: block;
+    width: 100vw; height: 687px;
+    position: relative;
+    margin-bottom: 60px;
+  }
+
+  .container3 .cont3Title{
+    width: 100%; height: 125px;
+    position: absolute;
+    top: 0; left: 0;
+    background-color: #fff;
+    text-align: center;
+    line-height: 125px;
+    font-weight: 700;
+  }
+  .container3 .container3In{
+    display: block;
+    width: 100%; height: auto;
+    background: url(../img/myownstyle.jpg) no-repeat;
+  }
+
   
-}
