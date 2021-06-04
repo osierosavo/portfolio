@@ -189,7 +189,7 @@
   .notice .notice-blocks {
     width: 100%; height: calc(100% - 40px);
     z-index: 10;
-    border: 1px solid #000;
+    border: 1px solid rgba(0, 0, 0, .5);
   }
 
   /* notice(left) */
