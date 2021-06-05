@@ -88,7 +88,7 @@ li {
   background-color: #000;
 }
 
-.contact {
+.contacts {
   width: 298px;
   display: flex;
   justify-content: space-evenly;
@@ -96,7 +96,7 @@ li {
   position: relative;
 }
 
-.contact .depth {
+.contacts .depth {
   width: 300px; height: 50px;
   position: absolute;
   left: 50%; transform: translateX(-50%);
@@ -105,11 +105,11 @@ li {
   text-align: center;
   font-weight: bold;
   background-color: #fff;
-  opacity: 0;
+  display: none;
 }
 
-.contact li:hover .depth {
-  opacity: 1;
+.contacts li:hover .depth {
+  display: block;
   z-index: 1;
 }
 
