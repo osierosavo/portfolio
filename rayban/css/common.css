@@ -58,7 +58,7 @@ header .inner .logo {display: none;}
 header .inner .logo img {display: none;}
 
 header .inner .logo_M {
-  width: 30vw; height: auto;
+  width: 20vw; height: auto;
   transition: .3s;
 }
 header .inner .mobileMenu {
@@ -71,6 +71,7 @@ header .inner .mobileMenu .material-icons {
 }
 header .headerPart {display: none;}
 
+footer {display: none;}
 /********************************************************** mobile - pad ver */
 
 @media (min-width:641px) {

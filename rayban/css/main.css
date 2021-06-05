@@ -19,13 +19,14 @@
   }
   /* visual */
   .visual {
-    width: 100vw; height: 398px;
+    width: 100vw; height: auto;
     display: block;
   }
   .visual .inner {
-    width: 100%; height: auto;
-    background-image: url("../images/slider_img.jpg");
-    background-repeat: no-repeat;
+    height: auto;
+  }
+  .visual .inner img {
+    width: 100%;
   }
 
   /* container1 */
@@ -104,9 +105,9 @@
   .eyeglass2 .eyeglass2-title {top: 535px;}
   .eyeglass3 .eyeglass3-title {top: 845px;}
   
-  .eyeglass1 .eyeglass1-img {top: 250px;}
-  .eyeglass2 .eyeglass2-img {top: 555px;}
-  .eyeglass3 .eyeglass3-img {top: 880px;}
+  .eyeglass1 .eyeglass1-img {top: 220px;}
+  .eyeglass2 .eyeglass2-img {top: 530px;}
+  .eyeglass3 .eyeglass3-img {top: 860px;}
  
   /* container2 */
   .container2{
@@ -129,24 +130,375 @@
 
   .container3{
     display: block;
-    width: 100vw; height: 687px;
-    position: relative;
+    width: 100vw; height: auto;
     margin-bottom: 60px;
   }
-
-  .container3 .cont3Title{
-    width: 100%; height: 125px;
-    position: absolute;
-    top: 0; left: 0;
-    background-color: #fff;
-    text-align: center;
-    line-height: 125px;
-    font-weight: 700;
+  .container3 .inner {
+    height: 100%;
   }
-  .container3 .container3In{
+  .container3 .cont3Title{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 100px;
+  }
+  .container3 .do_yours{
     display: block;
     width: 100%; height: auto;
-    background: url(../img/myownstyle.jpg) no-repeat;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .container3 .do_yours .do {
+    margin-top: 10px;
+  }
+  .container3 .do_yours .do a {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+  }
+  .container3 .do_yours .do a p {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+  }
+  .container3 .focus {
+    display: none;
+  }
+}
+@media (min-width:768px) {
+
+  .container1{
+    height: 590px;
+  } 
+  .container1 .inner{
+    width: 728px; height: 513px;
+  }
+  .container1 .sunglasses{
+    width: 728px; height: 513px;
+    background: url(../img/sunglasses.png) no-repeat 0 0/ 728px 513px;
   }
 
-  
+  .container1 .sunglasses-btn{
+    width: 40px; height: 100px;
+    top: 8px; left:0;
+  }
+  .container1 .eyeglasses-btn{
+    width: 40px; height: 100px;
+      top: 111px; left: 0;
+  }
+  .container1 .sunglasses .title{
+      font-size: 10px;
+      -webkit-transform:scale(0.7);
+      top: 236px; left:66px;
+  }    
+  .container1 .sunglasses .img{
+      width: 220px; height: auto;
+      top: 253px; left: 92.5px;
+  }
+  .container1 .sunglasses .title{
+      display: block;
+      font-size: 10px;
+      -webkit-transform:scale(0.68);
+      width: 300px; height: 45px;
+      line-height: 10px;
+      position: absolute;
+      bottom: 73px; left: 50.5px;
+  }
+
+  #container1 .sunglasses .title{
+      font-size: 10px;
+      -webkit-transform:scale(0.6) rotate(90deg);
+      top: 130px; left: 330px;
+  }
+  #container1 .sunglasses .sunglasses2Img img{
+      width: 220px; height: auto;
+      top: 93px; left: 156px;
+  }
+  #container1 .sunglasses .sunglasses3Title{
+      font-size: 10px;
+      -webkit-transform:scale(0.8);
+      top: 334px; left: 510px;
+  }
+  #container1 .sunglasses .sunglasses3Img img{
+      width: 220px; height: auto;
+      top: 191px; left: 438px;
+  }
+
+  #container1 .sunglasses .sunglasses3Txt{
+      display: block;
+      font-size: 10px;
+      -webkit-transform:scale(0.6);
+      width: 300px; height: auto;
+      line-height: 10px;
+      position: absolute;
+      top: 104px; right: 11.5px;
+  }
+
+  #container1 .cont1_eyeglasses{
+      width: 728px; height: 513px;
+      background: url(../img/eyeglasses.png) no-repeat 0 0/ 728px 513px;
+  /*        display: none;*/
+  }
+
+  /* .cont1_tag_eyeglasses a:hover .cont1_eyeglasses{display: block;} */
+
+
+  #container1 .cont1_eyeglasses .eyeglasses1Title{
+      font-size: 10px;
+      -webkit-transform:scale(0.6);
+      top: 353px; left: 95px;
+  }
+
+  #container1 .cont1_eyeglasses .eyeglasses1Img img{
+      width: 220px; height: auto;
+      top: 160px; left: 90px;
+  }
+
+  #container1 .cont1_eyeglasses .eyeglasses1Txt{
+      display: block;
+      font-size: 10px;
+      -webkit-transform:scale(0.7);
+      width: 300px; height: 45px;
+      line-height: 10px;
+      position: absolute;
+      bottom: 90px; left: 46px;
+  }
+
+  #container1 .cont1_eyeglasses .eyeglasses2Title{
+      font-size: 10px;
+      -webkit-transform:scale(0.6);
+      top: 303px; left: 68px;
+  }
+
+  #container1 .cont1_eyeglasses .eyeglasses2Img img{
+      width: 220px; height: auto;
+      -webkit-transform:rotate(90deg);
+      top: 265px; left: 300px;        
+  }
+
+  #container1 .cont1_eyeglasses .eyeglasses3Title{
+      font-size: 10px;
+      -webkit-transform:scale(0.7);
+      top: 193px; left: 546px;
+  }
+
+  #container1 .cont1_eyeglasses .eyeglasses3Img img{
+      width: 220px; height: auto;
+      top: 60px; left: 450px;
+  }
+
+  #container1 .cont1_eyeglasses .eyeglasses3Txt{
+      display: block;
+      font-size: 10px;
+      -webkit-transform:scale(0.7);
+      width: 300px; height: 45px;
+      line-height: 10px;
+      position: absolute;
+      top: 100px; left: 140px;
+  }
+
+  #container1 .more{
+      font-size: 8px;
+  }
+
+  #container1 .more a{
+      opacity: 1;
+      background-color: #f9f6ef;
+      width: 62.5px; height: 25px;
+      top: 5.4%; right: 5.7%;
+      border: 1px solid #777;
+      text-align: center;
+      line-height: 25px;
+      color: #000;
+  }
+
+}
+@media (min-width:1024px) {
+
+  .visual .inner img{
+      display: none;
+  }
+  .visual .slidervideo{
+      display: block;
+  }
+
+
+  .container1{
+    height: 825px;
+  }
+
+  .container1 .inner{
+      width: 960px; height: 670px;
+  }
+
+  .container1 .sunglasses{
+      width: 960px; height: 670px;
+      background-size: 100% 100%;
+  }
+
+  .container1 .cont1_tag_sunglasses a{
+      width: 35px; height: 130px;
+  }
+  #container1 .sunglasses .sunglasses1Title{
+      font-size: 12px;
+      top: 307px; left: 97px;
+  }    
+  #container1 .sunglasses .sunglasses1Img img{
+      width: 300px; height: auto;
+      top: 330px; left: 115.5px;
+  }
+  #container1 .sunglasses .title{
+      display: block;
+      font-size: 12px;
+      width: 400px; height: 45px;
+      line-height: 15px;
+      position: absolute;
+      bottom: 105px; left: 70px;
+  }
+  #container1 .sunglasses .title{
+      -webkit-transform:scale(0.7) rotate(90deg);
+      top: 175px; left: 458px;
+  }
+  #container1 .sunglasses .sunglasses2Img img{
+      width: 300px; height: auto;
+      top: 117.5px; left: 200px;
+  }
+  #container1 .sunglasses .sunglasses3Title{
+      font-size: 10px;
+      -webkit-transform:scale(0.7);
+      top: 438px; left: 692px;
+  }
+  #container1 .sunglasses .sunglasses3Img img{
+      width: 300px; height: auto;
+      top: 245px; left: 575px;
+  }
+  #container1 .sunglasses .sunglasses3Txt{
+      display: block;
+      font-size: 10px;
+      -webkit-transform:scale(0.7);
+      width: 300px; height: auto;
+      line-height: 11.5px;
+      position: absolute;
+      top: 145px; right: 60px;
+  }
+  #container1 .cont1_eyeglasses{
+      width: 960px; height: 670px;
+      background-size: 100% 100%;
+  }
+  #container1 .cont1_tag_eyeglasses a{
+      width: 35px; height: 130px;
+  }
+
+  #container1 .cont1_tag_eyeglasses{
+      top: 145px;
+  }
+
+  #container1 .cont1_eyeglasses .eyeglasses1Title{
+      font-size: 10px;
+      -webkit-transform:scale(0.75);
+      top: 461.5px; left: 150px;
+  }    
+  #container1 .cont1_eyeglasses .eyeglasses1Img img{
+      width: 300px; height: auto;
+      top: 205px; left: 115px;
+  }
+  #container1 .cont1_eyeglasses .eyeglasses1Txt{
+      display: block;
+      font-size: 10px;
+      -webkit-transform:scale(0.8);
+      width: 300px; height: 45px;
+      line-height: 10px;
+      position: absolute;
+      bottom: 125px; left: 109px;
+  }
+  #container1 .cont1_eyeglasses .eyeglasses2Title{
+      font-size: 10px;
+      -webkit-transform:scale(0.8);
+      top: 398px; left: 115px;
+  }
+  #container1 .cont1_eyeglasses .eyeglasses2Img img{
+      width: 300px; height: auto;
+      top: 345px; left: 390px;
+  }
+  #container1 .cont1_eyeglasses .eyeglasses3Title{
+      font-size: 10px;
+      -webkit-transform:scale(0.8);
+      top: 253px; left: 746px;
+  }
+  #container1 .cont1_eyeglasses .eyeglasses3Img img{
+      width: 300px; height: auto;
+      top: 75px; left: 587px;
+  }
+
+  #container1 .cont1_eyeglasses .eyeglasses3Txt{
+      font-size: 10px;
+      -webkit-transform:scale(0.8);
+      width: 300px; height: 45px;
+      line-height: 12px;
+      top: 131.5px; left: 235px;
+  }
+
+  #container1 .more{
+      font-size: 10px;
+  }
+
+  #container1 .more a{
+      width: 83px; height: 33px;
+      border: 1px solid #333;
+      line-height: 33px;
+  }
+
+
+  .container2{
+    height: 615px;
+  }
+  .container2 .inner {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container2 .container2Img{
+    display: none;
+  }
+
+  .container2 .cont2In{
+    display: block;
+    width: 783px; height: 415px;
+    position: relative;
+  }
+
+  .container2 .paintingBlur{
+      display: block;
+      position: absolute;
+      width: 550px; height: 418px;
+      background: url("../images/painting_blur.png") no-repeat;
+  }
+
+  .container2 .glasses{
+    width: auto; height: auto;
+    position: absolute;
+    top: 100px; left: 157px;
+    opacity: 0;
+    transition: all 0.5s;
+  }
+
+  .container2:hover .glasses{
+      opacity: 1;
+  }
+  .container3 .do {overflow: hidden;}
+  .container3 .do img {
+    transition: .5s;
+  }
+  .container3 .do:hover img {
+    transform: scale(1.2);
+  }
+  .container3 .do p {
+    z-index: 1;
+    transition: .5s;
+  }
+  .container3 .do:hover p {transform: scale(.8);}
+}
