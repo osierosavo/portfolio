@@ -27,7 +27,7 @@ img {vertical-align: top;}
     border-bottom: 1px solid #c8c8c8;
     position: fixed;
     top: 0;
-    z-index: 10;
+    z-index: 15;
 }
 .header>.inner {
     height: 120px;
