@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
-
 @font-face {
   font-family:'Authentic Signature';
   src: url('../font/Authentic-Signature.ttf') format('truetype');
@@ -153,7 +152,7 @@ li {
 
 .footergroup {
   position: absolute;
-  right: 140px; bottom: 100px;
+  right: 140px; bottom: 50px;
   text-align: right;
 }
 

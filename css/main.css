@@ -28,13 +28,21 @@
   width: 33.33%; height: auto;
   padding-right: 30px;
 }
-
 .questionGroup h2 {
-  width: 100%; height: 100px;
-  font-weight: 700;
+  width: 100%; height: auto;
+  font-weight: 800;
   font-size: 1.2em;
+  padding-bottom: 20px;
 }
-
+.questionGroup h2 span {
+  padding-right: 5px;
+}
+.questionGroup p {
+  line-height: 1.5rem;
+}
+.questionGroup .itsme {
+  padding-top: 20px;
+}
 /* skills */
 
 #skills {
