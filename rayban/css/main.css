@@ -167,25 +167,22 @@
 @media (min-width:768px) {
   /* container1 */
   .container1 {
-    height: auto;
-  }
-  .container1 .inner {
-    width: 728px; height: 513px;
+    height: 550px;
   }
   .container1 .container1_content {
-    width: 100%;
+    width: 728px; height: 513px;
   }
   .container1 .btn {
     width: 40px; height: 100px;
   }
+  .container1 .glassesBackground {
+    width: 728px;
+  }
   .container1 .glassesBackground .title {
     font-size: 10px;
-    transform:scale(0.7);
   }
   .container1 .glassesBackground .img {
     position: absolute;
-    left: 85px;
-    display: none;
   }
   .container1 .glassesBackground .img img {
     width: 220px; height: auto;
@@ -198,14 +195,10 @@
     line-height: 10px;
     position: absolute;
   }
-
   .container1 .more{
-    display: block;
     width: 95px; height: 40px;
-    font-size: 0;
-    position: absolute;
-    bottom: 50px; right: 45px;
-    background-color: transparent;
+    font-size: 10px;
+    bottom: 438px; right: 0px;
   } 
 
   /* container1 > sunglasses */ 
@@ -213,28 +206,29 @@
 
   .container1 .sunglasses-btn {top: 8px; left: 0;}
 
-  .sunglass1 .sunglass1-title {top: 206px; left:73px;}
+  .sunglass1 .sunglass1-title {top: 236px; left:93px;}
   .sunglass2 .sunglass2-title {
-    transform: rotate(90deg);
-    top: 130px; left: 330px;
+    transform: scale(0.7) rotate(90deg);
+    top: 130px; left: 353px;
   }
-  .sunglass3 .sunglass3-title {top: 334px; left: 510px;}
+  .sunglass3 .sunglass3-title {top: 334px; left: 530px;}
 
-  .sunglass1 .sunglass1-img {top: 253px; left: 92.5px;}
-  .sunglass2 .sunglass2-img {top: 93px; left: 156px;}
+  .sunglass1 .sunglass1-img {top: 250px; left: 95px;}
+  .sunglass2 .sunglass2-img {top: 90px; left: 155px;}
   .sunglass3 .sunglass3-img {top: 191px; left: 438px;}
 
-  .sunglass3 .sunglass1-info {bottom: 100px; left: 50.5px;}
-  .sunglass3 .sunglass3-info {top: 104px; right: 11.5px;}
+  .sunglass1 .sunglass1-info {top: 395px; left: 50px;}
+  .sunglass3 .sunglass3-info {top: 108px; right: 12px;}
 
   /* container1 > eyeglasses */  
   .container1 .inner .eyeglasses {background-image: url('../images/eyeglasses.png');}
 
   .eyeglasses-btn {top: 111px; left: 0;}
   
-  .eyeglass1 .eyeglass1-title {top: 353px; left: 95px;}
-  .eyeglass2 .eyeglass2-title {top: 303px; left: 68px;}
-  .eyeglass3 .eyeglass3-title {top: 193px; left: 546px;}
+  .eyeglasses .title {transform: scale(0.7);}
+  .eyeglass1 .eyeglass1-title {top: 351px; left: 120px;}
+  .eyeglass2 .eyeglass2-title {top: 302px; left: 92px;}
+  .eyeglass3 .eyeglass3-title {top: 192px; left: 565px;}
   
   .eyeglass1 .eyeglass1-img {top: 160px; left: 90px;}
   .eyeglass2 .eyeglass2-img {
@@ -243,7 +237,7 @@
   }
   .eyeglass3 .eyeglass3-img {top: 60px; left: 450px;}
 
-  .eyeglass3 .eyeglass1-info {bottom: 90px; left: 46px;}
+  .eyeglass1 .eyeglass1-info {bottom: 90px; left: 46px;}
   .eyeglass3 .eyeglass3-info {top: 100px; left: 140px;}
 
   .container1 .more a{
@@ -270,52 +264,30 @@
 
   /* container1 */
   .container1 {
-    display: block;
-    width: 100vw; height: 1300px;
-  }
-  .container1 .inner {
-    width: 100%; height: 100%;
+    height: 1100px;
   }
   .container1 .container1_content {
-    display: block; 
-    width: 960px; height: 100%;
-    position: relative;
-    top: 30px; left: 50%; transform: translateX(-50%);
+    width: 1000px; height: 100%;
   }
   .container1 .btn {
-    cursor: pointer;
-    display: block;
     width: 130px; height: 35px;
-    position: absolute;
-    background-color: transparent;
     top: 0;
-    z-index: 1;
   }
   .container1 .glassesBackground {
-    width: 640px; height: 100%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center 0;
-    position: absolute;
+    width: 1000px;
   }
   .container1 .glassesBackground .title {
     font-size: 1vw;
-    position: absolute;
-    left: 120px;
   }
   .container1 .glassesBackground .img {
     position: absolute;
-    left: 85px;
   }
   .container1 .glassesBackground .img img {
-    height: 33vh;
+    width: 300px;
   }
-  .container1 .glassesBackground .info {display: none;} 
-
   .container1 .more{
-    display: block;
     width: 95px; height: 40px;
-    font-size: 0;
+    font-size: 10px;
     position: absolute;
     bottom: 50px; right: 45px;
     background-color: transparent;
