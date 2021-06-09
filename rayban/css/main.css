@@ -101,13 +101,13 @@
 
   .eyeglasses-btn {top: 0; right: 17px;}
   
-  .eyeglass1 .eyeglass1-title {top: 232px;}
-  .eyeglass2 .eyeglass2-title {top: 535px;}
-  .eyeglass3 .eyeglass3-title {top: 845px;}
+  .eyeglass1 .eyeglass1-title {top: 232px; left: 120px;}
+  .eyeglass2 .eyeglass2-title {top: 535px; left: 120px;}
+  .eyeglass3 .eyeglass3-title {top: 845px; left: 120px;}
   
-  .eyeglass1 .eyeglass1-img {top: 220px;}
-  .eyeglass2 .eyeglass2-img {top: 530px;}
-  .eyeglass3 .eyeglass3-img {top: 860px;}
+  .eyeglass1 .eyeglass1-img {top: 220px; left: 85px;}
+  .eyeglass2 .eyeglass2-img {top: 530px; left: 85px;}
+  .eyeglass3 .eyeglass3-img {top: 860px; left: 85px;}
  
   /* container2 */
   .container2{

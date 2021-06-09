@@ -52,19 +52,21 @@
 }
 
 .skillsGroup {
-  width: 1000px; height: 500px;
+  width: 1000px; height: auto;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   margin: auto;
   position: absolute;
   top: 100px; left: 50%; transform: translateX(-50%);
+  
 }
 
 .skill {
   display: flex;
   justify-content: space-between;
   width: 480px;
+  padding-bottom: 30px;
 }
 
 .skillTitle {
@@ -174,7 +176,7 @@
 .swiper-prev {
   left: 0;
   background-color: red;
-  cursor: url('../images/cursor_prev.gif') 60 60, e-resize;
+  cursor: url('../images/cursor_prev.gif') 60 60, w-resize;
 }
 
 .swiper-next {
