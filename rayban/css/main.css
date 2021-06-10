@@ -181,9 +181,6 @@
   .container1 .glassesBackground .title {
     font-size: 10px;
   }
-  .container1 .glassesBackground .img {
-    position: absolute;
-  }
   .container1 .glassesBackground .img img {
     width: 220px; height: auto;
   }
@@ -196,9 +193,11 @@
     position: absolute;
   }
   .container1 .more{
-    width: 95px; height: 40px;
+    width: 60px; height: 30px;
     font-size: 10px;
-    bottom: 438px; right: 0px;
+    bottom: 455px; right: 43px;
+    text-align: center;
+    line-height: 30px;
   } 
 
   /* container1 > sunglasses */ 
@@ -264,60 +263,63 @@
 
   /* container1 */
   .container1 {
-    height: 1100px;
+    height: 700px;
   }
   .container1 .container1_content {
-    width: 1000px; height: 100%;
+    width: 948px; height: 668px;
   }
   .container1 .btn {
-    width: 130px; height: 35px;
-    top: 0;
+    width: 35px; height: 130px;
   }
   .container1 .glassesBackground {
-    width: 1000px;
+    width: 948px;
   }
   .container1 .glassesBackground .title {
-    font-size: 1vw;
-  }
-  .container1 .glassesBackground .img {
-    position: absolute;
+    font-size: 10px;
   }
   .container1 .glassesBackground .img img {
     width: 300px;
   }
+  .container1 .glassesBackground .info {
+    -webkit-transform:scale(0.9);
+  }
   .container1 .more{
-    width: 95px; height: 40px;
-    font-size: 10px;
-    position: absolute;
-    bottom: 50px; right: 45px;
-    background-color: transparent;
+    width: 85px; height: 30px;
+    top: 38px; right: 55px;
   } 
 
   /* container1 > sunglasses */ 
   .container1 .sunglasses {background-image: url('../images/sunglasses.png');}
 
-  .container1 .sunglasses-btn {right: 150px;}
+  .container1 .sunglasses-btn {top: 9px; left: 0;}
 
-  .sunglass1 .sunglass1-title {top: 232px;}
-  .sunglass2 .sunglass2-title {top: 535px;}
-  .sunglass3 .sunglass3-title {top: 845px;}
+  .sunglass1 .sunglass1-title {top: 305px; left: 130px;}
+  .sunglass2 .sunglass2-title {top: 170px; left: 474px;}
+  .sunglass3 .sunglass3-title {top: 435px; left: 700px;}
 
-  .sunglass1 .sunglass1-img {top: 235px;}
-  .sunglass2 .sunglass2-img {top: 540px;}
-  .sunglass3 .sunglass3-img {top: 860px;}
+  .sunglass1 .sunglass1-img {top: 120px; left: 195px;}
+  .sunglass2 .sunglass2-img {top: 325px; left: 110px;}
+  .sunglass3 .sunglass3-img {top: 250px; left: 560px;}
+
+  .sunglass1 .sunglass1-info {top: 520px; left: 110px;}
+  .sunglass3 .sunglass3-info {top: 150px; right: 60px;}
 
   /* container1 > eyeglasses */  
   .container1 .inner .eyeglasses {background-image: url('../images/eyeglasses.png');}
 
-  .eyeglasses-btn {right: 17px;}
+  .eyeglasses-btn {top: 145px; left: 0;}
   
-  .eyeglass1 .eyeglass1-title {top: 232px;}
-  .eyeglass2 .eyeglass2-title {top: 535px;}
-  .eyeglass3 .eyeglass3-title {top: 845px;}
+  .eyeglass1 .eyeglass1-title {top: 459px; left: 160px;}
+  .eyeglass2 .eyeglass2-title {top: 250px; left: 750px;}
+  .eyeglass3 .eyeglass3-title {top: 395px; left: 130px;}
   
-  .eyeglass1 .eyeglass1-img {top: 220px;}
-  .eyeglass2 .eyeglass2-img {top: 530px;}
-  .eyeglass3 .eyeglass3-img {top: 860px;}
+  .eyeglass1 .eyeglass1-img {top: 210px; left: 115px;}
+  .eyeglass2 .eyeglass2-img {top: 350px; left: 380px;}
+  .eyeglass3 .eyeglass3-img {top: 70px; left: 580px;}
+
+  .eyeglass1 .eyeglass1-info {bottom: 125px; left: 105px;}
+  .eyeglass3 .eyeglass3-info {top: 135px; left: 230px;}
+
 
   .container2{
     height: 615px;
